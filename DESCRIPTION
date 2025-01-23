@@ -1,0 +1,21 @@
+Package: VTPower
+Title: Sample Size Estimation for Longitudinal Slopes with Varying
+    Follow-up Time Points
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Yimiao", "Pang", , "y.pang@ufl.edu", role = "aut",
+           comment = c(ORCID = "https://orcid.org/0009-0003-7060-9305")),
+    person("Zhigang", "Li", , "zhigang.li@ufl.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-6224-1833"))
+  )
+Description: This package computes sample size using GEE for longitudinal
+    slopes with varying follow-up time points. Relevant formulas are given
+    in reference <DOI:UnderReview>.
+License: GPL (>= 2)
+Depends: 
+    R (>= 4.0.0)
+RdMacros: 
+    mathjaxr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
